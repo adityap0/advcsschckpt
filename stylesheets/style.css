@@ -367,7 +367,7 @@ input {
 }
 
 .host-user {
-  background-image: url(/assets/host.jpg);
+  background-image: url(./assets/host.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
