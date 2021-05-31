@@ -1,42 +1,42 @@
 let nearby = [
   {
     place: "Manali",
-    img: "/assets/manali.jpg",
+    img: "./assets/manali.jpg",
     duration: "6-Hour Drive",
   },
   {
     place: "Dalhousie",
-    img: "/assets/dalhousie.jpg",
+    img: "./assets/dalhousie.jpg",
     duration: "3-Hour Drive",
   },
   {
     place: "Kasauli",
-    img: "/assets/kasauli.jpg",
+    img: "./assets/kasauli.jpg",
     duration: "5-Hour Drive",
   },
   {
     place: "Mussoorie",
-    img: "/assets/mussurie.jpg",
+    img: "./assets/mussurie.jpg",
     duration: "7.5-Hour Drive",
   },
   {
     place: "Chandigarh",
-    img: "/assets/chandigarh.jpg",
+    img: "./assets/chandigarh.jpg",
     duration: "4.5-Hour Drive",
   },
   {
     place: "Almora",
-    img: "/assets/almora.jpg",
+    img: "./assets/almora.jpg",
     duration: "",
   },
   {
     place: "Banjar",
-    img: "/assets/banjar.jpg",
+    img: "./assets/banjar.jpg",
     duration: "5-Hour Drive",
   },
   {
     place: "Chamba",
-    img: "/assets/chamba.jpg",
+    img: "./assets/chamba.jpg",
     duration: "4-Hour Drive",
   },
 ];
@@ -44,19 +44,19 @@ let nearby = [
 let anywhere = [
   {
     place: "Entire Homes",
-    img: "/assets/entirehome.jpg",
+    img: "./assets/entirehome.jpg",
   },
   {
     place: "Unique Stays",
-    img: "/assets/uniquestay.jpg",
+    img: "./assets/uniquestay.jpg",
   },
   {
     place: "Farm and nature",
-    img: "/assets/farm.jpg",
+    img: "./assets/farm.jpg",
   },
   {
     place: "Pets Allowed",
-    img: "/assets/pets.jpg",
+    img: "./assets/pets.jpg",
   },
 ];
 
