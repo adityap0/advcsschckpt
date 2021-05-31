@@ -1,0 +1,33 @@
+.host-user {
+  background-image: url(/assets/host.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  border-radius: 10px;
+  position: relative;
+}
+article {
+  position: absolute;
+  width: 40%;
+  color: white;
+  h2 {
+    font-size: 52px;
+    font-weight: 500;
+  }
+  p {
+    line-height: 1.2;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 300;
+  }
+  button {
+    cursor: pointer;
+    border: 0;
+    padding: 14px 14px;
+    border-radius: 5px;
+    background: white;
+    font-size: 18px;
+  }
+  top: 120px;
+}

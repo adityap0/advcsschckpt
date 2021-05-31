@@ -1,0 +1,22 @@
+@import "reset";
+@import "general";
+@import "header";
+@import "hero";
+@import "nearby";
+@import "liveanywhere";
+@import "host";
+@import "discover";
+@import "getaway";
+@import "about";
+
+footer {
+  background: #f7f7f7;
+}
+.footer-div {
+  border-top: 0.5px solid;
+  li {
+    text-decoration: 1px solid;
+    cursor: pointer;
+    padding-right: 18px;
+  }
+}

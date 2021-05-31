@@ -1,0 +1,521 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flexc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex48 {
+  width: 48%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.flex24 {
+  width: 24%;
+}
+
+.flex31 {
+  width: 31%;
+}
+
+.wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.section-header {
+  font-size: 2rem;
+  color: black;
+  text-align: left;
+  font-weight: 500;
+  padding: 1.875rem 0;
+}
+
+header {
+  background: black;
+  color: white;
+}
+
+.brandlogo {
+  width: 10%;
+}
+
+.stay-experience nav ul li a {
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0 20px;
+}
+
+.stay-experience nav ul li a:hover {
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  font-weight: 500;
+}
+
+.login {
+  width: 25%;
+}
+
+.login-div {
+  background: white;
+  width: 20%;
+  padding: 5px 5px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.login div span {
+  padding: 10px 5px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.login div span:hover {
+  background: gray;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.globe {
+  margin: 0 10px;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+.globe:hover {
+  background: gray;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.hero {
+  background: black;
+}
+
+.hero-cover {
+  background-image: url(https://a0.muscache.com/im/pictures/ddc7f01f-3fb3-483c-87e6-701dad52c930.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+  height: 80vh;
+}
+
+.input-form {
+  background: white;
+  border-radius: 42px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.hero-cover div ul li {
+  margin: 20px 0;
+}
+
+label {
+  padding: 5px 0;
+}
+
+input {
+  border: 0;
+}
+
+.search-destination {
+  cursor: pointer;
+  border: 0;
+  padding: 12px;
+  border-radius: 50%;
+  background: #fe385c;
+  color: white;
+}
+
+.cover-text {
+  line-height: 0.9;
+  position: absolute;
+  color: black;
+  font-size: 62px;
+  font-weight: 600;
+  bottom: 200px;
+}
+
+.cover-text span {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+.cover-text button {
+  display: inline-block;
+  width: 45%;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  background: black;
+}
+
+.cover-text button a {
+  color: white;
+}
+
+.nearby {
+  padding: 10px 0;
+}
+
+.places {
+  margin: 20px 0;
+}
+
+.image-div {
+  height: 70px;
+  width: 70px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.place-description cite {
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.place-description span {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.anywhere span {
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.anywhere img {
+  border-radius: 5px;
+}
+
+.host-user {
+  background-image: url(/assets/host.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  border-radius: 10px;
+  position: relative;
+}
+
+article {
+  position: absolute;
+  width: 40%;
+  color: white;
+  top: 120px;
+}
+
+article h2 {
+  font-size: 52px;
+  font-weight: 500;
+}
+
+article p {
+  line-height: 1.2;
+  font-size: 18px;
+  padding: 20px 0;
+  font-weight: 300;
+}
+
+article button {
+  cursor: pointer;
+  border: 0;
+  padding: 14px 14px;
+  border-radius: 5px;
+  background: white;
+  font-size: 18px;
+}
+
+.discover h2 {
+  padding-bottom: 10px;
+}
+
+.discover p {
+  font-size: 24px;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.discover span {
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.imgdiv img {
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.getaway {
+  padding-bottom: 60px;
+}
+
+.getaway ul {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #bbbbbb;
+}
+
+.getaway a {
+  color: #919191;
+  padding: 10px 8px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.getaway a:hover {
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  background: #f5f3f3;
+  font-size: 18px;
+}
+
+.getaway-places {
+  margin: 20px 0;
+}
+
+.getaway-places ul {
+  border: 0;
+}
+
+.getaway-places ul li {
+  width: 20%;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.getaway-places ul li span {
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.getaway-places ul li cite {
+  color: gray;
+  padding: 7px 0;
+  font-weight: 200;
+}
+
+.place-list {
+  height: 900px;
+  border: 1px solid;
+}
+
+.about {
+  background: #f7f7f7;
+}
+
+.about-links h2 {
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about-links li {
+  margin: 25px 0;
+}
+
+.about-links li a {
+  color: black;
+  font-weight: 300;
+}
+
+.about-links li a:hover {
+  border-bottom: 1px solid;
+}
+
+footer {
+  background: #f7f7f7;
+}
+
+.footer-div {
+  border-top: 0.5px solid;
+}
+
+.footer-div li {
+  -webkit-text-decoration: 1px solid;
+          text-decoration: 1px solid;
+  cursor: pointer;
+  padding-right: 18px;
+}
+/*# sourceMappingURL=style.css.map */

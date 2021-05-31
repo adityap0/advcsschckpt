@@ -1,0 +1,43 @@
+.flex {
+  display: flex;
+}
+.flexc {
+  display: flex;
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+.center {
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.flex48 {
+  width: 48%;
+}
+.full-width {
+  width: 100%;
+}
+.flex24 {
+  width: 24%;
+}
+.flex31 {
+  width: 31%;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.section-header {
+  font-size: 2rem;
+  color: black;
+  text-align: left;
+  font-weight: 500;
+  padding: 1.875rem 0;
+}

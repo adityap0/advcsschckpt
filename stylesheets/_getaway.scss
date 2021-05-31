@@ -1,0 +1,44 @@
+.getaway {
+  padding-bottom: 60px;
+  ul {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(187, 187, 187);
+  }
+  a {
+    color: rgb(145, 145, 145);
+    padding: 10px 8px;
+    border-radius: 10px;
+    font-size: 16px;
+    &:hover {
+      transition-timing-function: ease-in-out;
+      transition-duration: 0.3s;
+      background: rgb(245, 243, 243);
+      font-size: 18px;
+    }
+  }
+}
+.getaway-places {
+  margin: 20px 0;
+  ul {
+    border: 0;
+    li {
+      width: 20%;
+      cursor: pointer;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      span {
+        font-weight: 300;
+        font-size: 17px;
+      }
+      cite {
+        color: gray;
+        padding: 7px 0;
+        font-weight: 200;
+      }
+    }
+  }
+}
+.place-list {
+  height: 900px;
+  border: 1px solid;
+}
