@@ -6,5 +6,9 @@
   }
   img {
     border-radius: 5px;
+    &:hover {
+      width: 105%;
+      transition: 0.2s cubic-bezier(0.77, 0, 0.175, 1);
+    }
   }
 }

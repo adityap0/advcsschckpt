@@ -345,6 +345,14 @@ input {
   margin-right: 20px;
 }
 
+.image-div:hover {
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
 .place-description cite {
   padding: 5px 0;
   font-size: 18px;
@@ -364,6 +372,12 @@ input {
 
 .anywhere img {
   border-radius: 5px;
+}
+
+.anywhere img:hover {
+  width: 105%;
+  -webkit-transition: 0.2s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: 0.2s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 .host-user {
@@ -423,6 +437,13 @@ article button {
 .imgdiv img {
   border-radius: 10px;
   margin-bottom: 15px;
+}
+
+.imgdiv:hover {
+  cursor: pointer;
+  -webkit-transition: 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  width: 106%;
 }
 
 .getaway {
